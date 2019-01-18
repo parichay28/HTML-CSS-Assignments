@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <style>
+            body {background-color: azure}
+
+            #login {
+                background-color: #12A2AB ;
+                color: white;
+                padding: 14px 20px;
+                margin: 25px 0;
+                border: none;
+                align-content: center;
+                width: 21%;
+                align-items: center;
+            }
+
+            #signup {
+                background-color: #12A2AB ;
+                color: white;
+                padding: 14px 20px;
+                margin: 25px 0;
+                border: none;
+                align-content: center;
+                width: 21%;
+                align-items: center;
+            }
+
+            
+
+            .imagecontainer {
+                text-align: center;
+                margin: 30px 0 20px 0;
+                padding-top: 30px;
+            }
+
+            input[type=text]{
+                width: 40%;
+                padding: 14px 20px;
+                margin: 12px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                display: inline-block
+
+                }
+
+            input[type=password] {
+                width: 40%;
+                padding: 14px 20px;
+                margin: 12px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                display: inline-block
+                }
+
+            .details {
+                text-align: center;
+            }
+
+            #glogin, #fblogin, #linkedinlogin {
+                text-align: center;
+                padding-top: 100px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .otherLoginModes{
+                text-align: center;
+            }
+
+            label{
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 align="center">Welcome to QAInfotech</h2>
+        <form target="login.html">
+            <div class="imagecontainer">
+                <img src="login_avatar.png" alt="login_avatar" class="login_avatar">
+            </div>
+
+            <div class="details">
+                    <label for="username"><b>Username</b></label><br>
+                    <input type="text" name="username" placeholder="Enter Username"><br>
+
+                    <label for="pwd"><b>Password</b></label><br>
+                    <input type="password" name="pwd" placeholder="Enter Password"><br>
+
+                    <button type="submit" id="login">Login</button>
+                    <button type="submit" id="signup">SignUp</button>
+                    
+            </div>
+
+            <div class="otherLoginModes"> 
+                <a href="www.google.com"><img src="google.png" alt="google_login" id="glogin"></a>
+                <a href="www.facebook.com"><img src="facebook.png" alt="facebook_login" id="fblogin" ></a>
+                <a href="www.linkedin.com"><img src="linkedin.png" alt="linkedin" id="linkedinlogin"></a>
+
+            </div>
+        </form>
+        
+    </body>
+</html>
