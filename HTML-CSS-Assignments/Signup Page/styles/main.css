@@ -1,0 +1,47 @@
+body {
+    background: url(../images/signup_banner2.jpg);
+    background-size: cover;
+    background-image: center;
+}
+
+.signup_page
+{
+    text-align: center;
+}
+
+.form {
+    border-radius: 25px;
+    background: #ffffff;
+    opacity: 0.76;
+    text-align: center;
+    display: inline-block;
+    padding: 3% 3%;
+    margin: 5% 5%;
+}
+
+input[type=text], [type=email], [type=password], [type=file], [type=date], [type=number], select {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    }
+
+#signup{
+        background-color: #12A2AB ;
+        color: white;
+        padding: 10px 10px;
+        margin: 25px 0;
+        border: none;
+        align-content: center;
+        width: 30%;
+        align-items: center;
+    }
+
+label {
+        display: inline-block;
+      }
+
+
+
+
