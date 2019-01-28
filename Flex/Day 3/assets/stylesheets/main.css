@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+input {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.pg {
+    display: flex;
+    flex-direction: row;
+}
+
+.pg-navbar {
+    background-color: #0d1217;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pg-navbar>i {
+
+    color: white;
+    margin: 1.2em;
+}
+
+.pg-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+}
+
+.con-welbanner {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://static1.squarespace.com/static/56bd091c86db4307fdeb8374/t/5bc97d070852297c292ef140/1539931431185/Results+Banner+Gradient.png?format=2500w");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30.375em;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-abt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.con-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.con-footer>h5 {
+    font-size: 0.9em;
+    margin: 3em;
+}
+
+.wel-head>h1, .wel-subhead>h3 {
+    color: white;
+    margin: 20px;
+}
+
+.wel-btn, .gal-btn {
+    margin: 2em;
+}
+
+.wel-btn>button {
+    font-family: 'Raleway', sans-serif;
+    padding: 1.2em 3em;
+    background-color: transparent;
+    border: 3px solid rgba(128, 128, 128, 0.5);
+    border-radius: 8px;
+    font-size: 1em;
+    color: white;
+
+}
+
+.gal-btn>button {
+    font-family: 'Raleway', sans-serif;
+    padding: 1em 2em;
+    background-color: #19B5FE;
+    border: 1px solid rgba(55, 187, 248, 0.8);
+    border-radius: 4px;
+    font-size: 1.35em;
+    color: #FFF;
+
+}
+
+.gal-head {
+    margin: 1.2em;
+}
+
+.gal-head>h1 {
+    color: black;
+    margin: 20px;
+}
+
+.gal-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gal-imgs>img {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+
+.abt-desc {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+    flex-grow: 1;
+}
+
+
+
+.desc-head>h1,
+.desc-text>p,
+.desc-links>h3,
+.desc-icons>i {
+    margin: 1em;
+}
+
+
+.desclink-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #19B5FE;
+    font-size: 1.7em;
+}
+
+.desclink-icons>i {
+    margin: 1em;
+}
+
+
+.abt-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    flex-grow: 1;
+}
+
+.abt-form>h1, .form-person, .form-msg, .form-send{
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.form-person, .form-msg{
+    padding-bottom: 1.2em;;
+}
+
+.form-send>input {
+    padding: 1em 1em;
+    background-color: #19B5FE;
+    border: 1px solid rgba(55, 187, 248, 0.8);
+    border-radius: 4px;
+    font-size: 1em;
+    color: #FFF;
+    
+}
+
+input[type="text"], input[type="email"], textarea {
+    height: 40px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    padding: 10px 10px;
+    outline: none;
+}
+
